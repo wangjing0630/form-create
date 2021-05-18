@@ -1,0 +1,42 @@
+{
+  "name": "@form-create/component-antdv-frame",
+  "version": "2.5.6",
+  "description": "@form-create/ant-design-vue 内置组件",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "unpkg": "./dist/index.js",
+  "jsdelivr": "./dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "bili": "cross-env bili",
+    "build": "npm-run-all clean bili"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "@form-create",
+    "ant-design-vue",
+    "form-create-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaboy/form-create.git"
+  },
+  "author": "xaboy",
+  "license": "MIT",
+  "dependencies": {
+    "@form-create/utils": "^2.5.6"
+  },
+  "bugs": {
+    "url": "https://github.com/xaboy/form-create/issues"
+  },
+  "homepage": "http://www.form-create.com",
+  "publishConfig": {
+    "access": "public"
+  }
+}

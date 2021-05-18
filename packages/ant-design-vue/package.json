@@ -1,0 +1,65 @@
+{
+  "name": "@form-create/ant-design-vue",
+  "version": "2.5.6",
+  "description": "ant-design-vue动态表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+  "main": "./dist/form-create.min.js",
+  "module": "./dist/form-create.min.js",
+  "unpkg": "./dist/form-create.min.js",
+  "jsdelivr": "./dist/form-create.min.js",
+  "typings": "./types/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "dev:antdv": "vue-cli-service serve",
+    "bili": "cross-env UI_LIB=ant-design-vue bili",
+    "build": "npm-run-all clean bili"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaboy/form-create.git"
+  },
+  "keywords": [
+    "动态表单",
+    "@form-create",
+    "form-builder",
+    "form",
+    "components",
+    "vue.js",
+    "ant-design-vue",
+    "json-form",
+    "dynamic-form"
+  ],
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "src",
+    "types",
+    "dist"
+  ],
+  "author": "xaboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xaboy/form-create/issues"
+  },
+  "homepage": "http://www.form-create.com",
+  "dependencies": {
+    "@form-create/component-antdv-frame": "^2.5.6",
+    "@form-create/component-antdv-group": "^2.5.6",
+    "@form-create/component-antdv-upload": "^2.5.6",
+    "@form-create/component-subform": "^2.5.2",
+    "@form-create/core": "^2.5.6",
+    "@form-create/utils": "^2.5.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@form-create/component-wangeditor": "^2.5.5",
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-service": "^4.5.3",
+    "@vue/composition-api": "^1.0.0-beta.22",
+    "ant-design-vue": "^1.5.3",
+    "moment": "^2.24.0",
+    "v-jsoneditor": "^1.4.2"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "@form-create/core",
+    "version": "2.5.6",
+    "description": "vue动态表单,助你轻松搞定表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+    "main": "./dist/index.min.js",
+    "module": "./dist/index.min.js",
+    "typings": "./types/index.d.ts",
+    "scripts": {
+        "clean": "rimraf dist/",
+        "bili": "cross-env UI_LIB=core bili",
+        "build": "npm-run-all clean bili"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xaboy/form-create.git"
+    },
+    "keywords": [
+        "动态表单",
+        "@form-create",
+        "form-builder",
+        "form",
+        "components",
+        "vue.js",
+        "json-form",
+        "dynamic-form"
+    ],
+    "files": [
+        "README.md",
+        "package.json",
+        "LICENSE",
+        "src",
+        "types",
+        "dist"
+    ],
+    "author": "xaboy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xaboy/form-create/issues"
+    },
+    "homepage": "http://www.form-create.com",
+    "dependencies": {
+        "@form-create/utils": "^2.5.6"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
