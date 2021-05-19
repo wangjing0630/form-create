@@ -1,6 +1,6 @@
 {
   "name": "@form-create/component-wangeditor",
-  "version": "2.5.10",
+  "version": "2.5.11",
   "description": "@form-create 富文本组件",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -39,5 +39,5 @@
   "dependencies": {
     "wangeditor": "^4.6.0"
   },
-  "gitHead": "eca331abd3b202b42e1909a6ee02eda1b5cfae08"
+  "gitHead": "6275501c111b98dcbabc07deb302a7317b866f70"
 }
