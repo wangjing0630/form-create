@@ -17,8 +17,7 @@
         "lint": "eslint *.js",
         "clear-all": "rimraf package-lock.json node_modules packages/*/node_modules components/*/*/node_modules packages/*/package-lock.json components/*/*/package-lock.json",
         "bootstrap": "npm run clear-all && npm i && npm-run-all bootstrap:lerna",
-        "bootstrap:lerna": "lerna bootstrap -- --ignore-engines",
-        "publish":"lerna publish package.json"
+        "bootstrap:lerna": "lerna bootstrap -- --ignore-engines"
     },
     "devDependencies": {
         "@vue/cli-service": "^4.5.3",

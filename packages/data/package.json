@@ -36,5 +36,6 @@
     "homepage": "http://www.form-create.com",
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "eca331abd3b202b42e1909a6ee02eda1b5cfae08"
 }
